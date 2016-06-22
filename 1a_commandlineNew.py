@@ -80,7 +80,7 @@ M = 5.0
 c_0 = 0.5
 epsilon = 0.01
 rho_s = 5.0
-filepath = os.path.join('/data/aem1/new1a/surf-research/Andrey/Data', sumatra_label) # 
+filepath = os.path.join('/data/aem1/new1a/corr-sumatra-test/Data', sumatra_label) # 
 
 # solution variable
 c_var = fp.CellVariable(mesh=mesh, name=r"$c$", hasOld=True)
